@@ -1,0 +1,64 @@
+.burger {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    margin-top: -100px;
+  }
+  
+  .burger h3 {
+    font-size: 25px;
+    margin-left: 250px;
+    color: orange;
+  }
+  
+  .burger h1 {
+    font-family: "Averia Serif Libre", serif;
+    margin-left: 250px;
+    font-size: 46px; 
+    margin-top: -5px;
+  }
+  
+  .burger p {
+    margin-top: -10px;
+    margin-left: 250px;
+    line-height: 2;
+    font-size: 17px;
+  }
+  
+  .burger button {
+    background: linear-gradient(to left, #75be48, #9bd455);
+    color: white;
+    border-radius: 1px;
+    box-shadow: #bbb 0 2px 4px 1px;
+    height: 50px;
+    border: none;
+    margin-left: 250px;
+    padding: 10px;
+    width: 12vw;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .burger button:hover {
+    background: linear-gradient(to right, #9bd455, #75be48); 
+    transform: translateY(-5px);
+  }
+  
+  .burger-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    margin-left: 900px; 
+     
+  }
+  
+  .burger-img img {
+    height: 40vh; 
+    width: 25vw;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,59 @@
+.About {
+    background-color: white;
+    height: 100vh;
+
+}
+
+.About h1 {
+    font-family: "Averia Serif Libre", serif;
+    display: flex;
+    text-align: left;
+    margin-left: 250px;
+    margin-top: 100px;
+    font-size: 46px; 
+    line-height: 1.5;
+
+}
+
+.About p {
+    margin-left: 250px;
+    line-height: 2;
+    color: rgb(100, 98, 98);
+}
+
+.mb {
+    margin-left: 250px;
+    width: 15vw;
+    height: 6vh;
+    font-size: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-right: 10px; 
+    text-align: left;
+
+}
+
+.btn{
+    width: 10vw;
+    height: 6vh;
+    background: linear-gradient(to left, #75be48, #9bd455);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: rgb(118, 160, 83); 
+    transform: translateY(-3px); 
+  }
+
+.image {
+    height: 70vh;
+    align-items: end;
+    margin-left: 850px;
+    margin-top: -400px;
+}

@@ -1,0 +1,65 @@
+.cards {
+    height: 100vh;
+}
+
+.cards h3 {
+    text-align: center;
+    justify-content: center;
+    color: orange;
+    font-size: 25px;
+    margin-bottom: 10px; 
+}
+
+.cards h1 {
+    text-align: center;
+    font-family: "Averia Serif Libre", serif;
+    font-size: 40px;
+    margin-bottom: 20px; 
+}
+
+.Carrd {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; 
+    gap: 20px; 
+}
+
+.card-container {
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+    border-radius: 5px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out; 
+    height: 40vh;
+}
+
+.card-container:hover {
+    transform: translateY(-5px);
+    border-bottom: 3px solid #75be48;
+}
+
+.card-title {
+    color: #202020; 
+    text-align: center; 
+    margin-top: 10px; 
+    font-weight: 600;
+}
+
+.card-text {
+    color: #555; 
+    line-height: 2.5;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-img-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.card-img-container img {
+    max-width: 100px; 
+    height: auto; 
+}
